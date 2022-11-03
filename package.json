@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-plugin-import-style",
+  "version": "1.0.1",
+  "description": "A custom stylelint plugin to catch usage of `@import` statement files beginning with chosen characters or ends with filename extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "stylelint-tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearcode-tech/stylelint-style-of-imports.git"
+  },
+  "keywords": [
+    "stylelint",
+    "css",
+    "stylelint-plugin"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clearcode-tech/stylelint-style-of-imports/issues"
+  },
+  "homepage": "https://github.com/clearcode-tech/stylelint-style-of-imports#readme",
+  "dependencies": {
+    "stylelint": "^14.14.0"
+  },
+  "devDependencies": {
+    "stylelint-tape": "^3.0.0"
+  }
+}
